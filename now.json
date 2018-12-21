@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "alias": "cresto.now.sh",
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}
