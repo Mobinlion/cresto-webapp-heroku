@@ -170,12 +170,12 @@ export default class extends React.PureComponent {
                   <Popover
                     content={
                       <span className="f5 fw4 tip">
-                        What’s new in <strong className="fw7">7</strong>?
+                        What’s new in <strong className="fw7">1.0</strong>?
                       </span>
                     }
                     top={65}
                   >
-                    7
+                    1
                   </Popover>
                 </a>
               </Link>

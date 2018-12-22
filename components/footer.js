@@ -184,9 +184,10 @@ export default withPure(() => (
           </div>
         </div>
         <div className="copyright f6">
-          <Link href="https://zeit.co">
-            <a rel="noreferrer" target="_blank" aria-label="ZEIT">
-              <ZEITLogo />
+          <Link href="https://cresto.io">
+            <a rel="noreferrer" target="_blank" aria-label="CRESTO">
+              <h1>CRESTO</h1>
+              {/* <ZEITLogo /> */}
             </a>
           </Link>
           <div> Copyright © 2018 CRESTO, Inc. All rights reserved.</div>

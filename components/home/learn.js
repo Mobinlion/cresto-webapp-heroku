@@ -14,10 +14,10 @@ export default () => (
       <style jsx>{`
         .learn-intro {
           position: relative;
-          height: 450px;
+          height: 510px;
           max-width: 1024px;
           margin: auto;
-          background: url(/static/images/learn.png);
+          background: url(/static/images/roadmap.png);
           background-size: 100% auto;
           background-position: 0 2rem;
           background-repeat: no-repeat;
@@ -30,7 +30,7 @@ export default () => (
           bottom: 0;
           background: linear-gradient(
             to bottom,
-            rgba(255, 255, 255, 0) 60%,
+            rgba(255, 255, 255, 0) 90%,
             rgba(255, 255, 255, 1) 90%
           );
           pointer-events: none;
