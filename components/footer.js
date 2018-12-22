@@ -190,7 +190,11 @@ export default withPure(() => (
               {/* <ZEITLogo /> */}
             </a>
           </Link>
-          <div> Copyright © 2018 CRESTO, Inc. All rights reserved.</div>
+          <div>
+            {' '}
+            Copyright &copy; 2017 - {new Date().getFullYear()} CRESTO, Inc. All
+            rights reserved.
+          </div>
         </div>
       </footer>
     </Container>
