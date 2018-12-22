@@ -15,7 +15,7 @@ We really appreciate any contribution.
 ## Related Repositories
 
 - [Cresto](https://github.com/aruzikulov/cresto-1)
-- [Author](https://github.com/aruzikulov)
+- [Developer](https://github.com/aruzikulov)
 
 ## Authors
 

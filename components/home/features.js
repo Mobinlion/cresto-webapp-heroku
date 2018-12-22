@@ -8,31 +8,31 @@ export default () => (
     <Container center padding>
       <SectionHeader
         id="features"
-        title="Why Next.js"
-        description="The world’s leading companies use and love Next.js"
+        title="Why CRESTO"
+        description="The world’s leading companies use and love Cresto"
       />
       <div className="row">
         <div className="column">
-          <h3 className="f3 fw6">Zero Setup</h3>
+          <h3 className="f3 fw6">Lower Cost & Efficiency</h3>
           <p>
-            Automatic code splitting, filesystem based routing, hot code
-            reloading and universal rendering.
+            Lower transaction cost and fees than in traditional financing. Fast
+            and easy transaction process.
           </p>
-          <Button href="/learn">Learn Next.js</Button>
+          <Button href="/learn">Learn more...</Button>
         </div>
         <div className="column">
-          <h3 className="f3 fw6">Fully Extensible</h3>
+          <h3 className="f3 fw6">Liquidity & Transparency</h3>
           <p>
-            Complete control over Babel and Webpack. Customizable server,
-            routing and next-plugins.
+            24/7 Access to world markets. Transparent flow of information,
+            possible to eliminate middleman.
           </p>
           <Button href="/docs">View Full Documentation</Button>
         </div>
         <div className="column">
-          <h3 className="f3 fw6">Ready for Production</h3>
+          <h3 className="f3 fw6">Lower Risk</h3>
           <p>
-            Optimized for a smaller build size, faster dev compilation and
-            dozens of other improvements.
+            Automated transaction distribution, lower operational, credit and
+            default risk.
           </p>
           <Button href="/showcase">View Showcase</Button>
         </div>

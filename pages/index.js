@@ -31,11 +31,11 @@ export default () => (
         >
           <Notification
             href="/blog/next-7"
-            title="Next 7 is out!"
-            titleMobile="Next 7 is out!"
+            title="Cresto 1.0 is out!"
+            titleMobile="Cresto 1.0 is out!"
           >
             Cresto 1.0 is out! — Real Estate Meets Blockchain: A Novel Way of
-            Fundraising and Investing. Saturdayday, December 22th 2018
+            Fundraising and Investing. Saturday, December 22th 2018
           </Notification>
           <Navbar hideLogo={!isMobile} />
         </Header>
