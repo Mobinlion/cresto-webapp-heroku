@@ -13,12 +13,12 @@ import Learn from '../components/home/learn';
 import SocialMeta from '../components/social-meta';
 
 export default () => (
-  <Page title="Next.js">
+  <Page title="CRESTO">
     <SocialMeta
       image={'/static/twitter-cards/home.jpg'}
-      title="Next.js"
-      url="https://nextjs.org"
-      description="Next.js is a lightweight framework for static and server-rendered applications"
+      title="CRESTO"
+      url="https://cresto.now.sh"
+      description="Real Estate Meets Blockchain: A Novel Way of Fundraising and Investing"
     />
     <MediaQueryConsumer>
       {({ isMobile }) => (
@@ -34,8 +34,8 @@ export default () => (
             title="Next 7 is out!"
             titleMobile="Next 7 is out!"
           >
-            Next 7 is out! — DX improvements, better error reporting, upgraded
-            compilation pipeline Wednesday, September 19th 2018
+            Cresto 1.0 is out! — Real Estate Meets Blockchain: A Novel Way of
+            Fundraising and Investing. Saturdayday, December 22th 2018
           </Notification>
           <Navbar hideLogo={!isMobile} />
         </Header>
