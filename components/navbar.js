@@ -22,7 +22,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
           return (
             <Container center>
               <h1 className="visually-hidden" aria-hidden="true">
-                Next.js
+                Cresto
               </h1>
               <nav className="expand f5">
                 <style jsx>
@@ -102,16 +102,16 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                 </style>
                 <div className="logo">
                   <Link href="/">
-                    <a aria-label="Next.js">
+                    <a aria-label="Cresto">
                       <NextLogo />
                     </a>
                   </Link>
                 </div>
                 <div className="links">
                   <div className="icons">
-                    <Link href="https://github.com/zeit/next.js">
+                    <Link href="https://github.com/aruzikulov/cresto-webapp">
                       <a
-                        aria-label="Next.js on GitHub"
+                        aria-label="Cresto.io on GitHub"
                         rel="noreferrer"
                         target="_blank"
                       >
@@ -120,7 +120,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     </Link>
                     <Link href={links.spectrum}>
                       <a
-                        aria-label="Next.js on Spectrum"
+                        aria-label="Cresto.io on Spectrum"
                         target="_blank"
                         rel="noreferrer"
                         className="no-margin"
@@ -188,7 +188,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
         return (
           <Container center>
             <h1 className="visually-hidden" aria-hidden="true">
-              Next.js
+              Cresto
             </h1>
             <nav className="f-reset">
               <style jsx>
@@ -333,9 +333,9 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   // <Link href="/enterprise" prefetch><a className={classNames('mute', { selected: route.startsWith('/enterprise') })} role='button'>Enterprise</a></Link>
                 }
                 <div className="icons">
-                  <Link href="https://github.com/zeit/next.js">
+                  <Link href="https://github.com/aruzikulov/cresto-webapp">
                     <a
-                      aria-label="Next.js on GitHub"
+                      aria-label="Cresto.io on GitHub"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -345,14 +345,14 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   <Popover
                     content={
                       <div style={{ whiteSpace: 'nowrap' }}>
-                        Join <strong className="fw6">Next.js</strong> on{' '}
+                        Join <strong className="fw6">Cresto</strong> on{' '}
                         <strong className="fw6">Spectrum</strong>
                       </div>
                     }
                   >
                     <Link href={links.spectrum}>
                       <a
-                        aria-label="Next.js on Spectrum"
+                        aria-label="Cresto.io on Spectrum"
                         rel="noreferrer"
                         target="_blank"
                         className="no-margin"
