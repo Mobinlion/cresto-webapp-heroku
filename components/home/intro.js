@@ -190,8 +190,11 @@ export default class extends React.PureComponent {
             </div>
             <div>
               <div className="main-button">
-                <Button href="#showcases" invert>
-                  See Showcase
+                <Button href="#invest" invert>
+                  Invest
+                </Button>{' '}
+                <Button href="#raise-capital" invert>
+                  Raise Capital
                 </Button>
               </div>
               <div className="links">
@@ -204,7 +207,9 @@ export default class extends React.PureComponent {
                   <Button href="/docs">View Docs</Button>
                 </div>
                 <div>
-                  <Button href="https://github.com/zeit/next.js">GitHub</Button>
+                  <Button href="https://github.com/aruzikulov/cresto-webapp">
+                    GitHub
+                  </Button>
                 </div>
               </div>
             </div>

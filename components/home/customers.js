@@ -10,8 +10,8 @@ export default () => (
     <SectionHeader
       anchor="showcases"
       id="customers"
-      title="Who’s Using Next.js"
-      description="We’re honored some of the most talented creatives out there build with Next.js"
+      title="Who’s Using Cresto"
+      description="We’re honored some of the most successful investors and srartups out there use and love Cresto Platform"
     />
     {/*
   <Container center>

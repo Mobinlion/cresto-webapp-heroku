@@ -159,7 +159,7 @@ export default withPure(() => (
             </p>
           </div>
           <div className="column">
-            <h4 className="fw5">About ZEIT</h4>
+            <h4 className="fw5">About CRESTO</h4>
             <p>
               <Link href="https://zeit.co/oss">
                 <a rel="noreferrer" target="_blank">
@@ -189,7 +189,7 @@ export default withPure(() => (
               <ZEITLogo />
             </a>
           </Link>
-          <div> Copyright © 2018 ZEIT, Inc. All rights reserved.</div>
+          <div> Copyright © 2018 CRESTO, Inc. All rights reserved.</div>
         </div>
       </footer>
     </Container>
