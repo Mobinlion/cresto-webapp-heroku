@@ -124,15 +124,15 @@ export default {
   type: ['browser', 'browser'],
   tabs: ['Website', 'Source'],
   browser1: {
-    browserTabs: ['http://nextjs-site.now.sh'],
+    browserTabs: ['https://cresto.now.sh'],
     browserMapping: {
-      'http://nextjs-site.now.sh': IndexPage
+      'https://cresto.now.sh': IndexPage
     }
   },
   browser2: {
-    browserTabs: ['view-source:http://nextjs-site.now.sh'],
+    browserTabs: ['view-source:https://cresto.now.sh'],
     browserMapping: {
-      'view-source:http://nextjs-site.now.sh': SourcePage
+      'view-source:https://cresto.now.sh': SourcePage
     }
   },
   note: (

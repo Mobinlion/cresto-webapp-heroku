@@ -6,7 +6,7 @@ const IndexFile = () => (
 
 export default () => (
   <div>
-    <h1>Hello Next.js 👋</h1>
+    <h1>Hello CRESTO 👋</h1>
     <Link href='/about'><a>About</a></Link>
   </div>
 )
@@ -44,15 +44,15 @@ const PackageFile = () => (
 
 const IndexPage = withFrame(({ A }) => (
   <div>
-    <h1>Hello Next.js 👋</h1>
-    <A tab="http://localhost:3000/about">About</A>
+    <h1>Hello CRESTO 👋</h1>
+    <A tab="https://cresto.now.sh/about">About</A>
   </div>
 ));
 
 const AboutPage = withFrame(({ A }) => (
   <div>
     <p>This is the about page</p>
-    <A tab="http://localhost:3000">Go home</A>
+    <A tab="https://cresto.now.sh">Go home</A>
   </div>
 ));
 
@@ -68,16 +68,16 @@ export default {
     }
   },
   browser2: {
-    browserTabs: ['http://localhost:3000', 'http://localhost:3000/about'],
+    browserTabs: ['https://cresto.now.sh', 'https://cresto.now.sh/about'],
     browserMapping: {
-      'http://localhost:3000': IndexPage,
-      'http://localhost:3000/about': AboutPage
+      'https://cresto.now.sh': IndexPage,
+      'https://cresto.now.sh/about': AboutPage
     }
   },
   note: (
     <>
       <p>
-        Next.js will serve each file in <code>/pages</code> under a pathname
+        Cresto will serve each file in <code>/pages</code> under a pathname
         matching the filename.
       </p>
       <p>

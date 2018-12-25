@@ -35,7 +35,7 @@ export default () => (
             titleMobile="Cresto 1.0 is out!"
           >
             Cresto 1.0 is out! — Real Estate Meets Blockchain: A Novel Way of
-            Fundraising and Investing. Saturday, December 22th 2018
+            Fundraising and Investing. Saturday, December 22nd 2018
           </Notification>
           <Navbar hideLogo={!isMobile} />
         </Header>

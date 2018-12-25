@@ -7,7 +7,7 @@ const makeLink = onSelect => ({ tab, children }) => (
 );
 
 export default Comp => ({ onSelect }) => (
-  <Frame title="Next.js Demo">
+  <Frame title="Cresto Demo">
     <Comp A={makeLink(onSelect)} />
   </Frame>
 );

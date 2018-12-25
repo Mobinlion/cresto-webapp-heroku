@@ -36,7 +36,7 @@ const IndexPage = withFrame(({ A }) => (
   <div>
     <h1>Hello, this is the homepage</h1>
     <p>{`I'm only 0.59 KB after gzipped.`}</p>
-    <A tab="http://localhost:3000/cowsay">Cowsay</A>
+    <A tab="https://cresto.now.sh/cowsay">Cowsay</A>
   </div>
 ));
 
@@ -51,7 +51,7 @@ const AboutPage = withFrame(({ A }) => (
            (__)\       )\\/\\
                ||----w |
                ||     ||`}</pre>
-    <A tab="http://localhost:3000">Go home</A>
+    <A tab="https://cresto.now.sh">Go home</A>
   </div>
 ));
 
@@ -66,10 +66,10 @@ export default {
     }
   },
   browser2: {
-    browserTabs: ['http://localhost:3000', 'http://localhost:3000/cowsay'],
+    browserTabs: ['https://cresto.now.sh', 'https://cresto.now.sh/cowsay'],
     browserMapping: {
-      'http://localhost:3000': IndexPage,
-      'http://localhost:3000/cowsay': AboutPage
+      'https://cresto.now.sh': IndexPage,
+      'https://cresto.now.sh/cowsay': AboutPage
     }
   },
   note: (
