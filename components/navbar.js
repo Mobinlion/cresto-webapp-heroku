@@ -325,9 +325,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
               {!hideLogo && (
                 <div className="logo">
                   <Link href="/" prefetch>
-                    <a aria-label="">
-                      <img src="/static/images/logo.svg" />
-                    </a>
+                    <a aria-label="" />
                   </Link>
                 </div>
               )}
