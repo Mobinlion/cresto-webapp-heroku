@@ -8,14 +8,14 @@ import withPure from './hoc/pure';
 export default withPure(({ href, title, titleMobile, children }) => (
   <MediaQueryConsumer>
     {({ isMobile }) => (
-      <div className="notification f6" title={title}>
+      <div className="notification f6">
         <style jsx>
           {`
             .notification {
               width: 100%;
               height: 32px;
               text-align: center;
-              background: rgba(0, 0, 0, 0.06);
+              background: rgba(0, 0, 0, 0);
               display: flex;
               align-items: center;
               justify-content: space-around;
@@ -30,7 +30,7 @@ export default withPure(({ href, title, titleMobile, children }) => (
         </style>
         <Container style={ellipsis()}>
           <Link href={href}>
-            <a>{isMobile && titleMobile ? titleMobile : children}</a>
+            <a />
           </Link>
         </Container>
       </div>

@@ -46,7 +46,9 @@ export default class extends React.PureComponent {
         center
         dotBackground
         minHeight={564}
-        mobileStyle={'min-height: 460px;'}
+        mobileStyle={
+          'min-height: 460px;background-image: url("/static/images/background.png"); background-size: 100%;background-repeat: no-repeat;background-position: center bottom; '
+        }
         style={{
           display: 'flex',
           alignItems: 'flex-end'
@@ -55,9 +57,36 @@ export default class extends React.PureComponent {
         <Container>
           <div className="intro-container">
             <style jsx>{`
+              .button_wrap {
+                text-align: center;
+              }
+              .button_wrap a {
+                cursor: pointer;
+                width: 160px;
+                height: 40px;
+                border-radius: 50px;
+                background: linear-gradient(90deg, #ff7200 0%, #de6327 100%);
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px;
+                overflow: hidden;
+                display: inline-table;
+                text-align: center;
+                color: #e2eaf3;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                text-decoration: none;
+                margin: 0 15px;
+                margin-bottom: 25px;
+              }
+              .button_wrap a span {
+                display: table-cell;
+                vertical-align: middle;
+              }
               .intro-container {
                 margin: 0 0 2rem 0;
-                overflow: visible;
+                overflow: hidden;
               }
               h2 {
                 margin-top: 1rem;
@@ -154,9 +183,6 @@ export default class extends React.PureComponent {
                 transformOrigin: 'top'
               }}
             >
-              <Link href={scroll >= LOGO_TOP ? '/' : undefined}>
-                <a aria-label="Next.js" />
-              </Link>
               <Link href="/blog/next-7">
                 <a
                   className="version no-tap-highlight no-drag"
@@ -164,16 +190,7 @@ export default class extends React.PureComponent {
                     opacity: Math.max(1 - (scroll * 3) / LOGO_TOP, 0),
                     visibility: scroll * 3 > LOGO_TOP ? 'hidden' : 'visible'
                   }}
-                >
-                  <Popover
-                    content={
-                      <span className="f5 fw4 tip">
-                        What’s new in <strong className="fw7">1.0</strong>?
-                      </span>
-                    }
-                    top={65}
-                  />
-                </a>
+                />
               </Link>
             </div>
             <div className="campaign no-drag no-tap-highlight">
@@ -184,30 +201,14 @@ export default class extends React.PureComponent {
                 <Campaign />
               </h2>
             </div>
-            <div>
-              <div className="main-button">
-                <Button href="#invest" invert>
-                  Invest
-                </Button>{' '}
-                <Button href="#raise-capital" invert>
-                  Raise Capital
-                </Button>
-              </div>
-              <div className="links">
-                <Link href={links.license}>
-                  <a rel="noreferrer" target="_blank">
-                    <span className="mute">License: MIT</span>
-                  </a>
-                </Link>
-                <div>
-                  <Button href="/docs">View Docs</Button>
-                </div>
-                <div>
-                  <Button href="https://github.com/aruzikulov/cresto-webapp">
-                    GitHub
-                  </Button>
-                </div>
-              </div>
+
+            <div className="button_wrap">
+              <a href="#Invest">
+                <span>Invest</span>
+              </a>
+              <a href="#RaiseCapital">
+                <span>Raise Capital</span>
+              </a>
             </div>
           </div>
         </Container>

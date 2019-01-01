@@ -36,9 +36,10 @@ export default ({
         ${
           dotBackground
             ? `
-          background-image: url("/static/images/test.png");
+          background-image: url("/static/images/background.png");
           background-size: 100%;
-          background-repeat: no
+          background-repeat: no-repeat;
+          background-position: 0% -40%;
         `
             : ''
         }
