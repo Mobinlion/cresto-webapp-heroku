@@ -9,6 +9,7 @@ import Popover from './popover';
 
 import GitHubLogo from './icons/github';
 import SpectrumLogo from './icons/spectrum';
+//import CrestoLogo from '../static/images/logo.png';
 
 import { links } from '../site-manifest';
 
@@ -100,10 +101,11 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     }
                   `}
                 </style>
+
                 <div className="logo">
                   <Link href="/">
                     <a aria-label="Cresto">
-                      <NextLogo />
+                      <img src="/static/images/logo_cresto.svg" width="120" />
                     </a>
                   </Link>
                 </div>
@@ -274,7 +276,18 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   }
                 `}
               </style>
+
               <div className="links">
+                <Link href="/">
+                  <a aria-label="">
+                    <img
+                      src="/static/images/logo_cresto.svg"
+                      width="200"
+                      height="100"
+                    />
+                  </a>
+                </Link>
+
                 <Link href="/docs">
                   <a
                     className={classNames('mute', {
@@ -312,8 +325,8 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
               {!hideLogo && (
                 <div className="logo">
                   <Link href="/" prefetch>
-                    <a aria-label="Next.js">
-                      <NextLogo />
+                    <a aria-label="">
+                      <img src="/static/images/logo.svg" />
                     </a>
                   </Link>
                 </div>

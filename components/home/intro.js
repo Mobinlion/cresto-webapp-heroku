@@ -9,6 +9,7 @@ import Popover from '../popover';
 import Campaign from './campaign';
 
 import { links } from '../../site-manifest';
+import { backgroundImages } from 'polished';
 
 const LOGO_TOP = 170;
 
@@ -43,7 +44,6 @@ export default class extends React.PureComponent {
         role="main"
         wide
         center
-        overflow
         dotBackground
         minHeight={564}
         mobileStyle={'min-height: 460px;'}
@@ -155,9 +155,7 @@ export default class extends React.PureComponent {
               }}
             >
               <Link href={scroll >= LOGO_TOP ? '/' : undefined}>
-                <a aria-label="Next.js">
-                  <Logo size={80} />
-                </a>
+                <a aria-label="Next.js" />
               </Link>
               <Link href="/blog/next-7">
                 <a
@@ -174,9 +172,7 @@ export default class extends React.PureComponent {
                       </span>
                     }
                     top={65}
-                  >
-                    1
-                  </Popover>
+                  />
                 </a>
               </Link>
             </div>

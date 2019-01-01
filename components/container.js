@@ -36,8 +36,9 @@ export default ({
         ${
           dotBackground
             ? `
-          background-image: radial-gradient(circle, #D7D7D7, #D7D7D7 1px, #FFF 1px, #FFF);
-          background-size: 28px 28px;
+          background-image: url("/static/images/test.png");
+          background-size: 100%;
+          background-repeat: no
         `
             : ''
         }

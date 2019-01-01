@@ -16,8 +16,7 @@ export default withMediaQuery(({ title, description, children }) => (
       <meta
         name="description"
         content={
-          description ||
-          'Next.js is a lightweight framework for static and server-rendered applications'
+          description || 'CRESTO Commercial Real Estate Security Token Offering'
         }
       />
     </Head>
