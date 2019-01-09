@@ -42,9 +42,9 @@ export default () => (
       )}
     </MediaQueryConsumer>
     <Intro />
-    <Demo />
+    {/*<Demo />
     <Features />
-    <Customers />
+    <Customers />*/}
     <Learn />
     <Footer />
   </Page>

@@ -4,11 +4,12 @@ import WordSlider from '../word-slider';
 export default () => (
   <div className="slider-container">
     <WordSlider duration={1800}>
-      <span>Lower Cost</span>
+      <span>dasdas</span>
+      {/*<span>Lower Cost</span>
       <span>Efficiency</span>
       <span>Liquidity</span>
       <span>Transparency</span>
-      <span>Lower Risk</span>
+      <span>Lower Risk</span>*/}
     </WordSlider>
     <style jsx>{`
       .slider-container {

@@ -1,6 +1,6 @@
 {
-    "name": "CRESTO.js",
-    "short_name": "CRESTO.js",
+    "name": "Next.js",
+    "short_name": "Next.js",
     "icons": [
         {
             "src": "/static/favicons/android-chrome-192x192.png",

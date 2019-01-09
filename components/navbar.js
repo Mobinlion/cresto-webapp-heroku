@@ -121,6 +121,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                         <GitHubLogo />
                       </a>
                     </Link>
+                    {/*
                     <Link href={links.spectrum}>
                       <a
                         aria-label="Cresto.io on Spectrum"
@@ -132,21 +133,26 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                         <span className="badge" />
                       </a>
                     </Link>
+                    */}
                   </div>
                 </div>
                 <div className="links mute dropdown">
-                  <Link href="/docs">
+                  <Link href="/static/PDF/CRESTO_Whitepaper.pdf">
                     <a
                       className={classNames({
-                        selected: route.startsWith('/docs')
+                        selected: route.startsWith(
+                          '/static/PDF/CRESTO_Whitepaper.pdf'
+                        )
                       })}
-                      title="Documentation"
+                      title="Whitepaper"
                       role="button"
                     >
-                      Docs
+                      Whitepaper
                     </a>
                   </Link>
-                  <Link href="/learn">
+
+                  {/*<Link href="/docs"> <a className={classNames({ selected: route.startsWith('/docs')})} title="Documentation" role="button"> Docs </a></Link>*/}
+                  {/* <Link href="/learn">
                     <a
                       className={classNames({
                         selected: route.startsWith('/learn')
@@ -178,7 +184,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     >
                       Blog
                     </a>
-                  </Link>
+                    </Link> */}
                   {
                     // <Link href="/enterprise" prefetch><a className={classNames({ selected: route.startsWith('/enterprise') })} title='Enterprise' role='button'>Enterprise</a></Link>
                   }
@@ -288,7 +294,18 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     />
                   </a>
                 </Link>
-
+                {/* Left side menu, instead of on right side
+                <Link href="/static/PDF/CRESTO_Whitepaper.pdf">
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith('/static/PDF/CRESTO_Whitepaper.pdf')
+                    })}
+                    title="Whitepaper"
+                    role="button"
+                  >
+                    Whitepaper
+                  </a>
+                </Link>
                 <Link href="/docs">
                   <a
                     className={classNames('mute', {
@@ -321,7 +338,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   >
                     Showcase
                   </a>
-                </Link>
+                  </Link>*/}
               </div>
               {!hideLogo && (
                 <div className="logo">
@@ -330,7 +347,73 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   </Link>
                 </div>
               )}
+
               <div className="links">
+                <Link href="/static/PDF/CRESTO_Whitepaper.pdf" prefetch>
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith(
+                        '/static/PDF/CRESTO_Whitepaper.pdf'
+                      )
+                    })}
+                    role="button"
+                  >
+                    WHITEPAPER
+                  </a>
+                </Link>
+                {/*
+              <Link href="/STO" prefetch>
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith('/STO')
+                    })}
+                    role="button"
+                  >
+                    STO
+                  </a>
+                </Link>
+                <Link href="/how" prefetch>
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith('/how')
+                    })}
+                    role="button"
+                  >
+                    HOW IT WORKS
+                  </a>
+                </Link>
+                <Link href="/static/PDF/CRESTO_Whitepaper.pdf" prefetch>
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith('/static/PDF/CRESTO_Whitepaper.pdf')
+                    })}
+                    role="button"
+                  >
+                    WHITEPAPER
+                  </a>
+                </Link>
+                <Link href="/blog" prefetch>
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith('/blog')
+                    })}
+                    role="button"
+                  >
+                    TEAM
+                  </a>
+                </Link>
+                <Link href="/blog" prefetch>
+                  <a
+                    className={classNames('mute', {
+                      selected: route.startsWith('/blog')
+                    })}
+                    role="button"
+                  >
+                    CONTACT
+                  </a>
+                  </Link>* end of right side menu update later/}
+                {/*
+                  
                 <Link href="/blog" prefetch>
                   <a
                     className={classNames('mute', {
@@ -340,7 +423,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   >
                     Blog
                   </a>
-                </Link>
+                  </Link>*/}
                 {
                   // <Link href="/enterprise" prefetch><a className={classNames('mute', { selected: route.startsWith('/enterprise') })} role='button'>Enterprise</a></Link>
                 }
@@ -354,6 +437,8 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                       <GitHubLogo />
                     </a>
                   </Link>
+
+                  {/*
                   <Popover
                     content={
                       <div style={{ whiteSpace: 'nowrap' }}>
@@ -362,6 +447,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                       </div>
                     }
                   >
+                  
                     <Link href={links.spectrum}>
                       <a
                         aria-label="Cresto.io on Spectrum"
@@ -373,7 +459,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                         <span className="badge" />
                       </a>
                     </Link>
-                  </Popover>
+                  </Popover> */}
                 </div>
               </div>
             </nav>

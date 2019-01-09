@@ -12,6 +12,23 @@ export default () => (
       </p>
       <div className="overlay" />
       <style jsx>{`
+        .divided {
+          background: linear-gradient(
+            transparent 45%,
+            black 45%,
+            black 55%,
+            transparent 55%
+          );
+        }
+
+        .divided span {
+          background: white;
+          padding: 0 5px;
+        }
+
+        .divided span:last-of-type {
+          float: right;
+        }
         .learn-intro {
           position: relative;
           height: 510px;
@@ -44,10 +61,10 @@ export default () => (
         }
       `}</style>
     </div>
-    <div>
+    {/*<div>
       <Button href="/learn" invert>
         Get Started
       </Button>
-    </div>
+    </div>*/}
   </Container>
 );

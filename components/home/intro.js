@@ -146,6 +146,8 @@ export default class extends React.PureComponent {
               }
               .title-1 {
                 font-size: 1.802032470703125em;
+                color: #ff7200;
+                letter-spacing: 2px;
               }
               .title-2 {
                 font-size: 2.887rem;
@@ -162,6 +164,7 @@ export default class extends React.PureComponent {
                 }
                 .title-1 {
                   font-size: 1.423828125em;
+                  color: #de6327;
                 }
                 .title-2 {
                   font-size: 1.802032470703125em;
@@ -193,14 +196,24 @@ export default class extends React.PureComponent {
                 />
               </Link>
             </div>
+
             <div className="campaign no-drag no-tap-highlight">
-              <h1 className={classNames('title-1', 'fw6')}>
-                The CRESTO Platform for
+              <h1 className={classNames('title-1', 'fw4')}>
+                REALESTATE MEETS BLOCKCHAIN
+              </h1>
+              <h3 className={classNames('fw3')}>
+                CRESTO is a platform for issuing, selling and governing digital
+                securities on private real estate market
+              </h3>
+            </div>
+            {/*<div className="campaign no-drag no-tap-highlight">
+              <h1  className={classNames('title-1', 'fw4')} >
+              REALESTATE MEETS BLOCKCHAIN
               </h1>
               <h2 className={classNames('title-2', 'fw7')}>
                 <Campaign />
               </h2>
-            </div>
+              </div>*/}
 
             <div className="button_wrap">
               <a href="#Invest">

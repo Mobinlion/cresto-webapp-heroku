@@ -15,7 +15,7 @@ export default withPure(() => (
           {`
             footer {
               padding: 2rem 0 4rem;
-              min-height: 400px;
+              min-height: 100px;
             }
             a,
             p,
@@ -59,7 +59,7 @@ export default withPure(() => (
             }
           `}
         </style>
-        <div className="row f5">
+        {/*<div className="row f5">
           <div className="column">
             <h4 className="fw5">
               <Link href="/docs">
@@ -182,7 +182,7 @@ export default withPure(() => (
               </Link>
             </p>
           </div>
-        </div>
+        </div>*/}
         <div className="copyright f6">
           <Link href="https://cresto.io">
             <a rel="noreferrer" target="_blank" aria-label="CRESTO">
