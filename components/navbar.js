@@ -112,7 +112,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                 </div>
                 <div className="links">
                   <div className="icons">
-                    <Link href="https://github.com/aruzikulov/cresto-webapp">
+                    <Link href="https://github.com/CRESTOBlockchain">
                       <a
                         aria-label="Cresto.io on GitHub"
                         rel="noreferrer"
@@ -428,7 +428,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   // <Link href="/enterprise" prefetch><a className={classNames('mute', { selected: route.startsWith('/enterprise') })} role='button'>Enterprise</a></Link>
                 }
                 <div className="icons">
-                  <Link href="https://github.com/aruzikulov/cresto-webapp">
+                  <Link href="https://github.com/CRESTOBlockchain">
                     <a
                       aria-label="Cresto.io on GitHub"
                       rel="noreferrer"
