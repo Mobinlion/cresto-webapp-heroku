@@ -44,8 +44,8 @@ export default () => (
     <Intro />
     {/*<Demo />
     <Features />
-    <Customers />*/}
-    <Learn />
+    <Customers />
+    <Learn />*/}
     <Footer />
   </Page>
 );

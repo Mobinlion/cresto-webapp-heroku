@@ -199,7 +199,7 @@ export default class extends React.PureComponent {
 
             <div className="campaign no-drag no-tap-highlight">
               <h1 className={classNames('title-1', 'fw4')}>
-                REALESTATE MEETS BLOCKCHAIN
+                REAL ESTATE MEETS BLOCKCHAIN
               </h1>
               <h3 className={classNames('fw3')}>
                 CRESTO is a platform for issuing, selling and governing digital

@@ -3,15 +3,29 @@ import Button from '../button';
 import SectionHeader from '../section-header';
 
 export default () => (
-  <Container center padding wide role="region" aria-labelledby="learn">
+  <Container center padding role="region" aria-labelledby="learn">
+    <div className="container">
+      <hr className="beautiful-line" />
+    </div>
+
     <SectionHeader id="learn" title="Learn How to..." />
     <div className="learn-intro">
       <p>
         Tutorials, examples and quizzes. <br className="display-mobile" />
-        Learn Cresto Plarform step-by-step and earn points ✨.
+        Learn Cresto Plarform step-by-step and earn points.
       </p>
       <div className="overlay" />
       <style jsx>{`
+        .container {
+          height: 300px;
+          width: 50%px;
+          margin: 10px auto;
+          padding-top: 100px;
+        }
+        .beautiful-line {
+          border-top: 1px solid #999;
+          width: 90%;
+        }
         .divided {
           background: linear-gradient(
             transparent 45%,
@@ -60,6 +74,9 @@ export default () => (
           }
         }
       `}</style>
+    </div>
+    <div className="container">
+      <hr className="beautiful-line" />
     </div>
     {/*<div>
       <Button href="/learn" invert>

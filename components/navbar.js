@@ -411,7 +411,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   >
                     CONTACT
                   </a>
-                  </Link>* end of right side menu update later/}
+                  </Link> end of right side menu update later*/}
                 {/*
                   
                 <Link href="/blog" prefetch>

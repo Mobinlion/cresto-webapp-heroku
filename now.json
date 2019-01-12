@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "cresto.now.sh",
+  "alias": "crestowebsite.now.sh",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "routes": [
     {
