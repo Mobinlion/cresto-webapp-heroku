@@ -156,6 +156,7 @@ export default class extends React.PureComponent {
               }
               .campaign {
                 margin: 1rem 0 1.6rem;
+                margin-bottom: 100px;
               }
               // CSS only media query for mobile
               @media screen and (max-width: 640px) {
@@ -215,7 +216,7 @@ export default class extends React.PureComponent {
               </h2>
               </div>*/}
 
-            <div className="button_wrap">
+            <div className="campaign button_wrap">
               <a href="#Invest">
                 <span>Invest</span>
               </a>

@@ -80,7 +80,7 @@ export default () => (
           }
           .beautiful-line {
             border-top: 1px solid #999;
-            width: 90%;
+            width: 100%;
           }
           .title-1 {
             font-size: 1.102032470703125em;
