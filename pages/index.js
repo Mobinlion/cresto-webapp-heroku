@@ -6,6 +6,7 @@ import Notification from '../components/notification';
 import { MediaQueryConsumer } from '../components/media-query';
 
 import Intro from '../components/home/intro';
+import STO from '../components/home/STO';
 import Demo from '../components/home/demo';
 import Features from '../components/home/features';
 import Customers from '../components/home/customers';
@@ -42,10 +43,11 @@ export default () => (
       )}
     </MediaQueryConsumer>
     <Intro />
+    <STO />
     {/*<Demo />
     <Features />
     <Customers />
-    <Learn />*/}
-    <Footer />
+    <Learn />
+    <Footer />*/}
   </Page>
 );
