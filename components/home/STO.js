@@ -6,6 +6,12 @@ import CompanySlider from './company-slider';
 export default () => (
   <Container wide role="region" aria-labelledby="features">
     <Container center padding>
+      <div className="container">
+        <hr className="beautiful-line" />
+      </div>
+      <br />
+      <br />
+      <br />
       <div>
         <div className="campaign no-drag no-tap-highlight">
           <h1 className="fw3">SECURITY TOKEN OFFERING</h1>
@@ -66,6 +72,16 @@ export default () => (
           .column {
             text-align: center;
           }
+          .container {
+            height: 300px;
+            width: 50%px;
+            margin: 10px auto;
+            padding-top: 100px;
+          }
+          .beautiful-line {
+            border-top: 1px solid #999;
+            width: 90%;
+          }
           .title-1 {
             font-size: 1.102032470703125em;
             color: #ff7200;
@@ -77,6 +93,7 @@ export default () => (
             margin-bottom: 0;
           }
 
+          //added by Mobin to hide images on mobile and pc
           .hideImage {
             display: none;
           }
@@ -92,7 +109,7 @@ export default () => (
               display: inline !important;
             }
           }
-
+          //added by Mobin to hide images on mobile and pc {end}
           // CSS only media query for tablet
           @media screen and (max-width: 960px) {
             .row {
@@ -109,6 +126,6 @@ export default () => (
         `}</style>
       </div>
     </Container>
-    <CompanySlider />
+    {/*<CompanySlider />*/}
   </Container>
 );
