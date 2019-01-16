@@ -47,7 +47,7 @@ export default class extends React.PureComponent {
         dotBackground
         minHeight={564}
         mobileStyle={
-          'min-height: 460px;background-image: url("/static/images/background.png"); background-size: 100%;background-repeat: no-repeat;background-position: center bottom; '
+          'min-height: 460px;background-image: url("/static/images/background.png"); background-size: 100%;background-repeat: no-repeat; background-position: center center; background-size: auto; '
         }
         style={{
           display: 'flex',
@@ -158,6 +158,10 @@ export default class extends React.PureComponent {
                 margin: 1rem 0 1.6rem;
                 margin-bottom: 100px;
               }
+              .campaignButton {
+                margin: 1rem 0 1.6rem;
+                margin-bottom: 100px;
+              }
               // CSS only media query for mobile
               @media screen and (max-width: 640px) {
                 .logo-main {
@@ -172,7 +176,14 @@ export default class extends React.PureComponent {
                   margin-top: -2.4rem;
                 }
                 .campaign {
-                  margin: 0 0 2rem;
+                  margin: 0px 0 0rem;
+                }
+                .campaigndiv {
+                  margin-top: 200px;
+                }
+                .campaignButton {
+                  margin: 1rem 0 1.6rem;
+                  padding-top: 80px;
                 }
               }
             `}</style>
@@ -198,31 +209,33 @@ export default class extends React.PureComponent {
               </Link>
             </div>
 
-            <div className="campaign no-drag no-tap-highlight">
-              <h1 className={classNames('title-1', 'fw4')}>
-                REAL ESTATE MEETS BLOCKCHAIN
-              </h1>
-              <h3 className={classNames('fw3')}>
-                CRESTO is a platform for issuing, selling and governing digital
-                securities on private real estate market
-              </h3>
-            </div>
-            {/*<div className="campaign no-drag no-tap-highlight">
-              <h1  className={classNames('title-1', 'fw4')} >
-              REALESTATE MEETS BLOCKCHAIN
-              </h1>
-              <h2 className={classNames('title-2', 'fw7')}>
-                <Campaign />
-              </h2>
-              </div>*/}
+            <div className="campaigndiv">
+              <div className="campaign no-drag no-tap-highlight">
+                <h1 className={classNames('title-1', 'fw4')}>
+                  REAL ESTATE MEETS BLOCKCHAIN
+                </h1>
+                <h3 className={classNames('fw3')}>
+                  CRESTO is a platform for issuing, selling and governing
+                  digital securities on private real estate market
+                </h3>
+              </div>
+              {/*<div className="campaign no-drag no-tap-highlight">
+                  <h1  className={classNames('title-1', 'fw4')} >
+                  REALESTATE MEETS BLOCKCHAIN
+                  </h1>
+                  <h2 className={classNames('title-2', 'fw7')}>
+                    <Campaign />
+                  </h2>
+                  </div>*/}
 
-            <div className="campaign button_wrap">
-              <a href="#Invest">
-                <span>Invest</span>
-              </a>
-              <a href="#RaiseCapital">
-                <span>Raise Capital</span>
-              </a>
+              <div className="campaignButton button_wrap">
+                <a href="#Invest">
+                  <span>Invest</span>
+                </a>
+                <a href="#RaiseCapital">
+                  <span>Raise Capital</span>
+                </a>
+              </div>
             </div>
           </div>
         </Container>

@@ -54,6 +54,8 @@ export default () => (
             max-width: 600px;
             margin-left: 20px;
           }
+          .campaign {
+          }
           .imgOne {
             margin-bottom: 10px;
           }

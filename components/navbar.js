@@ -137,17 +137,46 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   </div>
                 </div>
                 <div className="links mute dropdown">
-                  <Link href="/static/PDF/CRESTO_Whitepaper.pdf">
+                  <Link href="/STO" prefetch>
                     <a
-                      className={classNames({
+                      className={classNames('mute', {
+                        selected: route.startsWith('/STO')
+                      })}
+                      role="button"
+                    >
+                      STO
+                    </a>
+                  </Link>
+                  <Link href="/static/PDF/CRESTO_Whitepaper.pdf" prefetch>
+                    <a
+                      className={classNames('mute', {
                         selected: route.startsWith(
                           '/static/PDF/CRESTO_Whitepaper.pdf'
                         )
                       })}
-                      title="Whitepaper"
                       role="button"
                     >
-                      Whitepaper
+                      WHITEPAPER
+                    </a>
+                  </Link>
+                  <Link href="/team" prefetch>
+                    <a
+                      className={classNames('mute', {
+                        selected: route.startsWith('/team')
+                      })}
+                      role="button"
+                    >
+                      TEAM
+                    </a>
+                  </Link>
+                  <Link href="/contact" prefetch>
+                    <a
+                      className={classNames('mute', {
+                        selected: route.startsWith('/contact')
+                      })}
+                      role="button"
+                    >
+                      CONTACT
                     </a>
                   </Link>
 
@@ -349,20 +378,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
               )}
 
               <div className="links">
-                <Link href="/static/PDF/CRESTO_Whitepaper.pdf" prefetch>
-                  <a
-                    className={classNames('mute', {
-                      selected: route.startsWith(
-                        '/static/PDF/CRESTO_Whitepaper.pdf'
-                      )
-                    })}
-                    role="button"
-                  >
-                    WHITEPAPER
-                  </a>
-                </Link>
-                {/*
-              <Link href="/STO" prefetch>
+                <Link href="/STO" prefetch>
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/STO')
@@ -385,33 +401,36 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                 <Link href="/static/PDF/CRESTO_Whitepaper.pdf" prefetch>
                   <a
                     className={classNames('mute', {
-                      selected: route.startsWith('/static/PDF/CRESTO_Whitepaper.pdf')
+                      selected: route.startsWith(
+                        '/static/PDF/CRESTO_Whitepaper.pdf'
+                      )
                     })}
                     role="button"
                   >
                     WHITEPAPER
                   </a>
                 </Link>
-                <Link href="/blog" prefetch>
+                <Link href="/team" prefetch>
                   <a
                     className={classNames('mute', {
-                      selected: route.startsWith('/blog')
+                      selected: route.startsWith('/team')
                     })}
                     role="button"
                   >
                     TEAM
                   </a>
                 </Link>
-                <Link href="/blog" prefetch>
+                <Link href="/contact" prefetch>
                   <a
                     className={classNames('mute', {
-                      selected: route.startsWith('/blog')
+                      selected: route.startsWith('/contact')
                     })}
                     role="button"
                   >
                     CONTACT
                   </a>
-                  </Link> end of right side menu update later*/}
+                </Link>{' '}
+                {/*end of right side menu update later*/}
                 {/*
                   
                 <Link href="/blog" prefetch>

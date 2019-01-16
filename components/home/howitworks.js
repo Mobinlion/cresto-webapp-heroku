@@ -3,17 +3,9 @@ import Button from '../button';
 import SectionHeader from '../section-header';
 
 export default () => (
-  <Container center padding role="region" aria-labelledby="learn">
-    <div className="container">
-      <hr className="beautiful-line" />
-    </div>
-
+  <Container center role="region" aria-labelledby="learn">
     <div className="campaign no-drag no-tap-highlight">
-      <br />
-      <br />
-      <h1 className="fw3">SECURITY TOKEN OFFERING</h1>
-      <br />
-      <br />
+      <h1 className="fw3">HOW IT WORKS</h1>
     </div>
     <div className="learn-intro">
       <div className="overlay" />
@@ -47,10 +39,10 @@ export default () => (
         }
         .learn-intro {
           position: relative;
-          height: 510px;
+          height: 1024px;
           max-width: 1024px;
           margin: auto;
-          background: url(/static/images/roadmap.png);
+          background: url(/static/howitworks/Diagram.png);
           background-size: 100% auto;
           //background-color: #f0f3f5;
           background-position: 0 2rem;
@@ -70,31 +62,55 @@ export default () => (
           pointer-events: none;
         }
         // CSS only media query for tablet
+        @media screen and (max-width: 960px) {
+            .learn-intro {
+              background-position: 0 3.5rem;
+              background-size: 100% auto;
+              height: 940px;
+            }
+          }
+          @media screen and (max-width: 820px) {
+            .learn-intro {
+              background-position: 0 3.5rem;
+              background-size: 100% auto;
+              height: 800px;
+            }
+          }
         @media screen and (max-width: 720px) {
           .learn-intro {
             background-position: 0 3.5rem;
             background-size: 100% auto;
-            height: 360px;
+            height: 700px;
+          }
+        }
+        @media screen and (max-width: 560px) {
+          .learn-intro {
+            background-position: 0 3.5rem;
+            background-size: 100% auto;
+            height: 580px;
           }
         }
         @media screen and (max-width: 420px) {
           .learn-intro {
             background-position: 0 3.5rem;
             background-size: 100% auto;
-            height: 240px;
+            height: 440px;
           }
         }
-        @media screen and (min-width: 960px) {
+        @media screen and (max-width: 360px) {
           .learn-intro {
             background-position: 0 3.5rem;
             background-size: 100% auto;
-            height: 600px;
+            height: 380px;
           }
+        }
+        
+          
         }
       `}</style>
     </div>
-    <div className="container">
+    {/*<div className="container">
       <hr className="beautiful-line" />
-    </div>
+    </div>*/}
   </Container>
 );

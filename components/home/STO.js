@@ -15,7 +15,6 @@ export default () => (
       <div>
         <div className="campaign no-drag no-tap-highlight">
           <h1 className="fw3">SECURITY TOKEN OFFERING</h1>
-          <br />
           <h3 className="fw2">
             Security tokens are digital securities fully compliant with
             financial regulations and run on the blockchain. Security Token
@@ -33,7 +32,7 @@ export default () => (
           <br />
         </div>
         <div className="row">
-          <div className="column">
+          <div className="column pullup">
             <h3 className="title-1 f2 fw5">SECURITY TOKENS</h3>
             <br />
             <br />
@@ -45,7 +44,7 @@ export default () => (
             <br />
             <img src="/static/STO/icon-3-full.png" align="middle" />
           </div>
-          <div className="column">
+          <div className="column vspullup">
             <img
               className="hideMobile hideImage"
               src="/static/STO/divider.png"
@@ -76,6 +75,12 @@ export default () => (
             max-width: 500px;
             margin-left: 25px;
             margin-right: 25px;
+          }
+          .pullup {
+            margin-bottom: 20px;
+          }
+          .vspullup {
+            margin-bottom: 10px;
           }
           .container {
             height: 300px;
@@ -126,6 +131,11 @@ export default () => (
               padding: 1.5rem 0;
               text-align: center;
               max-width: 350px;
+            }
+            .learn-intro {
+              background-position: 0 3.5rem;
+              background-size: 100% auto;
+              height: 360px;
             }
           }
         `}</style>
