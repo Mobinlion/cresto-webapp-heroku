@@ -8,12 +8,14 @@ export default () => (
       <hr className="beautiful-line" />
     </div>
 
-    <SectionHeader id="learn" title="Learn How to..." />
+    <div className="campaign no-drag no-tap-highlight">
+      <br />
+      <br />
+      <h1 className="fw3">SECURITY TOKEN OFFERING</h1>
+      <br />
+      <br />
+    </div>
     <div className="learn-intro">
-      <p>
-        Tutorials, examples and quizzes. <br className="display-mobile" />
-        Learn Cresto Plarform step-by-step and earn points.
-      </p>
       <div className="overlay" />
       <style jsx>{`
         .container {
@@ -50,6 +52,7 @@ export default () => (
           margin: auto;
           background: url(/static/images/roadmap.png);
           background-size: 100% auto;
+          //background-color: #f0f3f5;
           background-position: 0 2rem;
           background-repeat: no-repeat;
         }
@@ -70,7 +73,7 @@ export default () => (
         @media screen and (max-width: 960px) {
           .learn-intro {
             background-position: 0 3.5rem;
-            background-size: 160% auto;
+            background-size: 100% auto;
           }
         }
       `}</style>
@@ -78,10 +81,5 @@ export default () => (
     <div className="container">
       <hr className="beautiful-line" />
     </div>
-    {/*<div>
-      <Button href="/learn" invert>
-        Get Started
-      </Button>
-    </div>*/}
   </Container>
 );
