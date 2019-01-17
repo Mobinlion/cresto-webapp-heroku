@@ -3,13 +3,21 @@ import Button from '../button';
 import SectionHeader from '../section-header';
 
 export default () => (
-  <Container id="How" center role="region" aria-labelledby="learn">
-    <div className="campaign no-drag no-tap-highlight">
-      <h1 className="fw3">HOW IT WORKS</h1>
-    </div>
-    <div className="learn-intro">
-      <div className="overlay" />
-      <style jsx>{`
+  <Container center role="region" aria-labelledby="learn">
+    <Container center>
+      {' '}
+      {/*fix padding which adds extra white space*/}
+      <div className="container">
+        <hr id="How" className="beautiful-line" />
+      </div>
+      <br />
+      <br />
+      <div className="campaign no-drag no-tap-highlight">
+        <h1 className="fw3">HOW IT WORKS</h1>
+      </div>
+      <div className="learn-intro">
+        <div className="overlay" />
+        <style jsx>{`
         .container {
           height: 300px;
           width: 50%px;
@@ -108,9 +116,10 @@ export default () => (
           
         }
       `}</style>
-    </div>
-    {/*<div className="container">
+      </div>
+      {/*<div className="container">
       <hr className="beautiful-line" />
     </div>*/}
+    </Container>
   </Container>
 );

@@ -4,17 +4,17 @@ import SectionHeader from '../section-header';
 import CompanySlider from './company-slider';
 
 export default () => (
-  <Container id="STO" wide role="region" aria-labelledby="features">
+  <Container wide role="region" aria-labelledby="features">
     <Container center padding>
       <div className="container">
-        <hr className="beautiful-line" />
+        <hr id="STO" className="beautiful-line" />
       </div>
-      <br />
       <br />
       <br />
       <div>
         <div className="campaign no-drag no-tap-highlight">
           <h1 className="fw3">SECURITY TOKEN OFFERING</h1>
+          <br />
           <h3 className="fw2">
             Security tokens are digital securities fully compliant with
             financial regulations and run on the blockchain. Security Token
