@@ -3,7 +3,7 @@ import Button from '../button';
 import SectionHeader from '../section-header';
 
 export default () => (
-  <Container center role="region" aria-labelledby="learn">
+  <Container id="How" center role="region" aria-labelledby="learn">
     <div className="campaign no-drag no-tap-highlight">
       <h1 className="fw3">HOW IT WORKS</h1>
     </div>

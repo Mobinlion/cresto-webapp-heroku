@@ -137,10 +137,10 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   </div>
                 </div>
                 <div className="links mute dropdown">
-                  <Link href="/STO" prefetch>
+                  <Link href="#STO" prefetch>
                     <a
                       className={classNames('mute', {
-                        selected: route.startsWith('/STO')
+                        selected: route.startsWith('#STO')
                       })}
                       role="button"
                     >
@@ -378,20 +378,20 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
               )}
 
               <div className="links">
-                <Link href="/STO" prefetch>
+                <Link href="#STO" prefetch>
                   <a
                     className={classNames('mute', {
-                      selected: route.startsWith('/STO')
+                      selected: route.startsWith('#STO')
                     })}
                     role="button"
                   >
                     STO
                   </a>
                 </Link>
-                <Link href="/how" prefetch>
+                <Link href="#How" prefetch>
                   <a
                     className={classNames('mute', {
-                      selected: route.startsWith('/how')
+                      selected: route.startsWith('#How')
                     })}
                     role="button"
                   >
@@ -410,7 +410,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     WHITEPAPER
                   </a>
                 </Link>
-                <Link href="/team" prefetch>
+                {/*<Link href="/team" prefetch>
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/team')
@@ -429,7 +429,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                   >
                     CONTACT
                   </a>
-                </Link>{' '}
+                  </Link>{' '} */}
                 {/*end of right side menu update later*/}
                 {/*
                   
