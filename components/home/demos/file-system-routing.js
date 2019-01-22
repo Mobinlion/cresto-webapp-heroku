@@ -6,7 +6,7 @@ const IndexFile = () => (
 
 export default () => (
   <div>
-    <h1>Hello CRESTO 👋</h1>
+    <h1>Hello CRESTO </h1>
     <Link href='/about'><a>About</a></Link>
   </div>
 )

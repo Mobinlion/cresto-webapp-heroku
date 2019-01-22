@@ -3,12 +3,11 @@ import Button from '../button';
 import SectionHeader from '../section-header';
 
 export default () => (
-  <Container center role="region" aria-labelledby="learn">
-    <Container center>
-      {' '}
+  <Container id="How" role="region" aria-labelledby="hiw">
+    <Container center="true" padding="true">
       {/*fix padding which adds extra white space*/}
       <div className="container">
-        <hr id="How" className="beautiful-line" />
+        <hr className="beautiful-line" />
       </div>
       <br />
       <br />
@@ -116,6 +115,9 @@ export default () => (
           
         }
       `}</style>
+      </div>
+      <div className="container">
+        <hr className="beautiful-line" />
       </div>
       {/*<div className="container">
       <hr className="beautiful-line" />

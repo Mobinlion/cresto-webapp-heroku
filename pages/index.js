@@ -13,6 +13,7 @@ import Demo from '../components/home/demo';
 import Features from '../components/home/features';
 import Customers from '../components/home/customers';
 import Learn from '../components/home/learn';
+import Team from '../components/home/team';
 import SocialMeta from '../components/social-meta';
 
 export default () => (
@@ -49,6 +50,7 @@ export default () => (
     <Advantages />
     <Learn />
     <How />
+    <Team />
     {/*<Demo />
     <Features />
     <Customers />

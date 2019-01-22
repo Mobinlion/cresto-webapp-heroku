@@ -4,10 +4,10 @@ import SectionHeader from '../section-header';
 import CompanySlider from './company-slider';
 
 export default () => (
-  <Container wide role="region" aria-labelledby="features">
-    <Container center padding>
+  <Container wide="true" role="region" aria-labelledby="features">
+    <Container id="STO" center="true" padding="true">
       <div className="container">
-        <hr id="STO" className="beautiful-line" />
+        <hr className="beautiful-line" />
       </div>
       <br />
       <br />

@@ -5,7 +5,7 @@ import CompanySlider from './company-slider';
 
 export default () => (
   <Container wide role="region" aria-labelledby="features">
-    <Container center padding>
+    <Container center padding="true">
       <SectionHeader
         id="features"
         title="Why CRESTO"
