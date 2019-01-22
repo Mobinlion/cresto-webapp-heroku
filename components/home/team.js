@@ -34,7 +34,7 @@ const CardExampleCard = () => (
       </Card>
 
       <Card>
-        <Image src="/static/team/Picture1.png" centered />
+        <Image src="/static/team/awaitingpic.jpg" centered />
         <Card.Content>
           <Card.Header>Ben</Card.Header>
           <Card.Meta>
@@ -55,7 +55,7 @@ const CardExampleCard = () => (
       </Card>
 
       <Card>
-        <Image src="/static/team/Picture1.png" centered />
+        <Image src="/static/team/awaitingpic.jpg" centered />
         <Card.Content>
           <Card.Header>Ahmed John</Card.Header>
           <Card.Meta>
