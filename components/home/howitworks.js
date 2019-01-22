@@ -116,9 +116,6 @@ export default () => (
         }
       `}</style>
       </div>
-      <div className="container">
-        <hr className="beautiful-line" />
-      </div>
       {/*<div className="container">
       <hr className="beautiful-line" />
     </div>*/}

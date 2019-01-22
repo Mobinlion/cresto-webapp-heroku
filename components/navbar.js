@@ -159,7 +159,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                       WHITEPAPER
                     </a>
                   </Link>
-                  <Link href="/team" prefetch>
+                  <Link href="#Team" prefetch>
                     <a
                       className={classNames('mute', {
                         selected: route.startsWith('/team')
@@ -169,7 +169,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                       TEAM
                     </a>
                   </Link>
-                  <Link href="/contact" prefetch>
+                  {/*<Link href="/contact" prefetch>
                     <a
                       className={classNames('mute', {
                         selected: route.startsWith('/contact')
@@ -178,7 +178,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     >
                       CONTACT
                     </a>
-                  </Link>
+                    </Link>*/}
 
                   {/*<Link href="/docs"> <a className={classNames({ selected: route.startsWith('/docs')})} title="Documentation" role="button"> Docs </a></Link>*/}
                   {/* <Link href="/learn">
@@ -410,7 +410,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     WHITEPAPER
                   </a>
                 </Link>
-                {/*<Link href="/team" prefetch>
+                <Link href="#Team" prefetch>
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/team')
@@ -420,7 +420,7 @@ export default withRouter(({ isMobile, router, hideLogo = false }) => {
                     TEAM
                   </a>
                 </Link>
-                <Link href="/contact" prefetch>
+                {/* <Link href="/contact" prefetch>
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/contact')
